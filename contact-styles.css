@@ -1,0 +1,83 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(226, 225, 225);
+}
+
+.main-container{
+height: 100vh;
+width: 90vw;
+background-color: lightgrey;
+}
+
+.banner{
+  margin-bottom: 50px;
+  border-style: double;
+  border-radius: 30px;
+  width: auto;
+  font-size: x-large;
+  text-decoration-line: underline;
+  display: flex;
+  justify-content: center;
+}
+
+.body-container{
+  height: auto;
+  width: auto;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container{
+  height: 800px;
+  width: 1000px;
+  /* border: solid; */
+  border-width: 1px;
+  box-shadow: 5px blue;
+  display: flex;
+  justify-content: center;
+
+}
+
+.email{
+  /* border: solid 1px red;
+  display: flex;
+  justify-content: center;*/
+  margin-bottom: 50px;
+}
+
+#email-ID{
+font-size: 25px;
+margin-right: 5px;
+color: black;
+}
+
+.comments{
+  font-size: 20px;
+  /* border: solid 1px blue; */
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.referred-checks{
+  margin-top: 50px;
+  /* border-style: groove; */
+  padding: 0px 20px 0px 0px;
+  font-size: 20px;
+}
+
+p.referred-checks{
+  font-size: 100px;
+}
+
+.contact-back{
+  margin: 50px 0px;
+  font-size: 20px;
+}
+
+.birthday-wish{
+  margin: 50px 0px;
+  font-size: 18px;
+}

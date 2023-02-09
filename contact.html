@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./contact-styles.css">
+  <title>Contact Me!</title>
+</head>
+<body>
+  <div class="main-container">
+    <span class="banner">
+      <h1>Let me know how to best reach you!</h1>
+    </span>
+    <div class="body-container">
+      <div class="form-container">
+        <form>
+          <div class="email">
+            <label for="email" id="email-ID">Email:</label>
+            <input type="text" placeholder="johnsmith@email.com" required size="40">
+          </div>
+          <div class="comments">
+            <label for="comments">Comments (20 min, 500 max)</label>
+            <textarea id="comments" placeholder="Comments" minlength="20" maxlength="500" cols="30" rows="4"></textarea>
+          </div>
+          <div class="referred-checks">
+            <p>How did you hear about me?</p>
+            <input type="checkbox" id="classmate">
+            <lablel for="classmate">Classmate</lablel>
+            <input type="checkbox" id="resume">
+            <lablel for="resume">Resume Submission</lablel>
+            <input type="checkbox" id="linkedIn">
+            <lablel for="linkedIn">LinkedIn</lablel>
+            <input type="checkbox" id="coding-academy-rec">
+            <lablel for="coding-academy-rec">Coding Academy Rec</lablel>
+          </div>
+          <div class="contact-back">
+            <p>Would you like me to reach back to you?</p>
+            <input type="radio" id="contact-back-yes">
+            <label for="contact-back-yes">Yes</label>
+            <input type="radio" id="contact-back-no">
+            <label for="contact-back-no">No</label>
+          </div>
+          <div class="birthday-wish">
+            <p>If you would like to receive a friendly birthday message, please submit your birth date here:</p>
+            <input type="date" onclick="this.showPicker()">
+          </div>
+          <div class="submit">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+    
+
+  </div>
+</body>
+</html>
