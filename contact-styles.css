@@ -11,10 +11,11 @@ background-color: lightgrey;
 }
 
 .banner{
-  margin-bottom: 50px;
+
   border-style: double;
   border-radius: 30px;
-  width: auto;
+  max-width: 900px;
+  margin: 0px auto 50px auto;
   font-size: x-large;
   text-decoration-line: underline;
   display: flex;
@@ -32,7 +33,7 @@ background-color: lightgrey;
 .form-container{
   height: 800px;
   width: 1000px;
-  /* border: solid; */
+  border: solid;
   border-width: 1px;
   box-shadow: 5px blue;
   display: flex;
@@ -41,9 +42,9 @@ background-color: lightgrey;
 }
 
 .email{
-  /* border: solid 1px red;
-  display: flex;
-  justify-content: center;*/
+  border: solid 1px red;
+  /* display: flex; */
+  /* justify-content: center;*/
   margin-bottom: 50px;
 }
 
@@ -55,7 +56,7 @@ color: black;
 
 .comments{
   font-size: 20px;
-  /* border: solid 1px blue; */
+  border: solid 1px blue;
   margin-top: 0px;
   display: flex;
   flex-direction: column;
@@ -63,9 +64,11 @@ color: black;
 
 .referred-checks{
   margin-top: 50px;
-  /* border-style: groove; */
+  border-style: groove;
   padding: 0px 20px 0px 0px;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 p.referred-checks{
@@ -75,9 +78,11 @@ p.referred-checks{
 .contact-back{
   margin: 50px 0px;
   font-size: 20px;
+  border: dotted 1px green;
 }
 
 .birthday-wish{
   margin: 50px 0px;
-  font-size: 18px;
+  font-size: 20px;
+  border: dotted 1px orange;
 }

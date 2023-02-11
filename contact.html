@@ -9,15 +9,15 @@
 </head>
 <body>
   <div class="main-container">
-    <span class="banner">
+    <div class="banner">
       <h1>Let me know how to best reach you!</h1>
-    </span>
+    </div>
     <div class="body-container">
       <div class="form-container">
         <form>
           <div class="email">
             <label for="email" id="email-ID">Email:</label>
-            <input type="text" placeholder="johnsmith@email.com" required size="40">
+            <input type="text" placeholder="johnsmith@email.com" name="email" required size="40">
           </div>
           <div class="comments">
             <label for="comments">Comments (20 min, 500 max)</label>
@@ -25,20 +25,28 @@
           </div>
           <div class="referred-checks">
             <p>How did you hear about me?</p>
-            <input type="checkbox" id="classmate">
-            <lablel for="classmate">Classmate</lablel>
-            <input type="checkbox" id="resume">
-            <lablel for="resume">Resume Submission</lablel>
-            <input type="checkbox" id="linkedIn">
-            <lablel for="linkedIn">LinkedIn</lablel>
-            <input type="checkbox" id="coding-academy-rec">
-            <lablel for="coding-academy-rec">Coding Academy Rec</lablel>
+            <div>
+              <input type="checkbox" id="classmate" name="reference-check">
+              <label for="classmate">Classmate</label>
+            </div>
+            <div>
+              <input type="checkbox" id="resume" name="reference-check">
+              <label for="resume">Resume Submission</label>
+            </div>
+            <div>
+              <input type="checkbox" id="linkedIn" name="reference-check">
+              <label for="linkedIn">LinkedIn</label>
+            </div>
+            <div>
+              <input type="checkbox" id="coding-academy-rec" name="reference-check">
+              <label for="coding-academy-rec">Coding Academy Rec</label>
+            </div>
           </div>
           <div class="contact-back">
             <p>Would you like me to reach back to you?</p>
-            <input type="radio" id="contact-back-yes">
+            <input type="radio" id="contact-back-yes" name="reply-back">
             <label for="contact-back-yes">Yes</label>
-            <input type="radio" id="contact-back-no">
+            <input type="radio" id="contact-back-no" name="reply-back">
             <label for="contact-back-no">No</label>
           </div>
           <div class="birthday-wish">
