@@ -10,11 +10,15 @@
   border: solid 1px red;
   height: 100%;
   width: 25%;
+  min-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Cedarville Cursive', cursive;
   background-image: url("repeating-trees-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .side-banner-title{

@@ -1,39 +1,43 @@
 body{
   display: flex;
   justify-content: center;
-  background-color: rgb(226, 225, 225);
+  background-color: rgb(124, 122, 122);
 }
 
 .main-container{
 height: 100vh;
 width: 90vw;
+min-width: 970px;
+max-width: 1500px;
 background-color: lightgrey;
 }
 
 .banner{
-
   border-style: double;
   border-radius: 30px;
-  max-width: 900px;
-  margin: 0px auto 50px auto;
+  max-width: 950px;
+  margin: 30px auto 50px auto;
   font-size: x-large;
-  text-decoration-line: underline;
   display: flex;
   justify-content: center;
+  text-decoration-line: underline;
 }
+
 
 .body-container{
   height: auto;
   width: auto;
   background-color: lightgrey;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-container{
   height: 800px;
   width: 1000px;
-  border: solid;
+  /* border: solid; */
   border-width: 1px;
   box-shadow: 5px blue;
   display: flex;
@@ -42,7 +46,7 @@ background-color: lightgrey;
 }
 
 .email{
-  border: solid 1px red;
+  /* border: solid 1px red; */
   /* display: flex; */
   /* justify-content: center;*/
   margin-bottom: 50px;
@@ -55,34 +59,62 @@ color: black;
 }
 
 .comments{
-  font-size: 20px;
-  border: solid 1px blue;
+  font-size: 25px;
+  /* border: solid 1px blue; */
   margin-top: 0px;
   display: flex;
   flex-direction: column;
 }
 
+.comments textarea{
+  font-size: 20px;
+}
+
 .referred-checks{
   margin-top: 50px;
-  border-style: groove;
+  /* border-style: groove; */
   padding: 0px 20px 0px 0px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
 }
 
-p.referred-checks{
-  font-size: 100px;
+.referred-checks p{
+  font-size: 25px;
+}
+
+.contact-back p{
+  font-size: 25px;
 }
 
 .contact-back{
   margin: 50px 0px;
   font-size: 20px;
-  border: dotted 1px green;
+  /* border: dotted 1px green; */
+}
+
+.birthday-wish p{
+  font-size: 25px;
 }
 
 .birthday-wish{
   margin: 50px 0px;
   font-size: 20px;
-  border: dotted 1px orange;
+  /* border: dotted 1px orange; */
 }
+
+.go-back-link{
+  margin-left: 270px;
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 40px;
+}
+
+.img-container{
+  height:100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
