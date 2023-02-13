@@ -1,73 +1,172 @@
+@media (min-width: 992px){
+  .main-container{
+    height: 100%;
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+  }
+  
+  .side-banner{
+    /* border: solid 1px red; */
+    height: 100%;
+    width: 25%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cedarville Cursive', cursive;
+    background-image: url("repeating-trees-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  .side-banner-title{
+    height: 100%;
+    border-style: dotted;
+    border-radius: 75px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: .6;
+  }
+  
+  .header-line1{
+    /* margin: 10px; */
+    font-size: 30px;
+  }
+  
+  .header-line2{
+    /* margin: 10px; */
+    font-size: 30px;
+  }
+  
+  .header-line3{
+    /* margin: 10px; */
+    font-size: 30px;
+  }
+  
+  .header-line4{
+    /* margin: 10px; */
+    font-size: 30px;
+  }
+  
+  .header-line5{
+    /* margin: 10px; */
+    font-size: 30px;
+  }
+  
+  .header-line6{
+    /* margin: 10px; */
+    font-size: 30px;
+  }
+  
+  .content-container{
+    /* border: solid 1px blue; */
+    height: auto;
+    width: 75%;
+  }
 
-.main-container{
-  height: 100%;
-  width: 100%;
-  background-color: lightgrey;
-  display: flex;
+  .profile-pic-container{
+    border: solid;
+    border-radius: 300px;
+    background-image: url("./wolf\ about\ me\ placeholder.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
 }
 
-.side-banner{
-  border: solid 1px red;
-  height: 100%;
-  width: 25%;
-  min-width: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Cedarville Cursive', cursive;
-  background-image: url("repeating-trees-background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
+@media (max-width: 992px)
+{
+
+  .main-container{
+    height: 100%;
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .side-banner{
+    /* border: solid 1px red; */
+    font-family: 'Cedarville Cursive', cursive;
+    background-image: url("repeating-trees-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    display: flex;
+
+    
+  
+  }
+  
+  .side-banner-title{
+    height: 100%;
+    width: 100%;
+    border-style: dotted;
+    border-radius: 75px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: .6;
+  }
+  
+  .header-line1{
+    /* margin: 10px; */
+    font-size: 20px;
+  }
+  
+  .header-line2{
+    /* margin: 10px; */
+    font-size: 20px;
+  }
+  
+  .header-line3{
+    /* margin: 10px; */
+    font-size: 20px;
+  }
+  
+  .header-line4{
+    /* margin: 10px; */
+    font-size: 20px;
+  }
+  
+  .header-line5{
+    /* margin: 10px; */
+    font-size: 20px;
+  }
+  
+  .header-line6{
+    /* margin: 10px; */
+    font-size: 20px;
+  }
+  
+  .content-container{
+    /* border: solid 1px blue; */
+    height: auto;
+    width: 75%;
+  }
+
+  .profile-pic-container{
+    border: solid;
+    border-radius: 300px;
+    background-image: url("./wolf\ about\ me\ placeholder.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
 
 }
-
-.side-banner-title{
-  height: 100%;
-  border-style: dotted;
-  border-radius: 75px;
-  padding: 0px 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: white;
-  opacity: .6;
-}
-
-.header-line1{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.header-line2{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.header-line3{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.header-line4{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.header-line5{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.header-line6{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.content-container{
-  border: solid 1px blue;
-  height: auto;
-  width: 75%;
-}
-
-
