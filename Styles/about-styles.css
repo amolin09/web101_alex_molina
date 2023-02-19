@@ -12,7 +12,7 @@
   .side-banner{
     /* border: solid 1px red; */
     font-family: 'Cedarville Cursive', cursive;
-    background-image: url("repeating-trees-background.png");
+    background-image: url("../Resources/repeating-trees-background.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
@@ -73,7 +73,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 33% 33% 34%;
-  background-image: url("./background-rain.jpg");
+  background-image: url("../Resources/background-rain.jpg");
 }
 
 .profile-pic-content-holder{
@@ -86,7 +86,7 @@
 .profile-pic-container{
   border-style:solid;
   border-radius: 250px;
-  background-image: url("./cosmic-moon-pic.jpg");
+  background-image: url("../Resources/cosmic-moon-pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -144,7 +144,7 @@
 .profile-pic2-container{
   border-style:solid;
   border-radius: 300px;
-  background-image: url("./wolf\ about\ me\ placeholder.jpg");
+  background-image: url("../Resources/wolf\ about\ me\ placeholder.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -160,7 +160,7 @@
 .profile-pic3-container{
   border-style:solid;
   border-radius: 400px;
-  background-image: url("./chilling-rain-pic.jpg");
+  background-image: url("../Resources/chilling-rain-pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -190,6 +190,10 @@
 }
 
 
+
+
+
+
 @media (min-width: 1550px){
   .main-container{
     height: 100%;
@@ -207,7 +211,7 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Cedarville Cursive', cursive;
-    background-image: url("repeating-trees-background.png");
+    background-image: url("../Resources/repeating-trees-background.png");
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -263,19 +267,23 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 34%;
-    background-image: url("./background-rain.jpg");
+    background-image: url("../Resources/background-rain.jpg");
   }
 
   .profile-pic-content-holder{
+    grid-row: 1;
+    grid-column: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 800px;
   }
 
   .profile-pic-container{
+
     border-style:solid;
     border-radius: 250px;
-    background-image: url("./cosmic-moon-pic.jpg");
+    background-image: url("../Resources/cosmic-moon-pic.jpg");
     background-repeat: no-repeat;
     height: 400px;
     width: 450px;
@@ -284,12 +292,13 @@
   }
 
   .my-philosophy-main-container{
+    grid-row: 1;
+    grid-column: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: auto;
-    max-width: auto;
+    width: 800px;
   }
 
   .my-philosophy-header{
@@ -303,12 +312,13 @@
   }
 
   .my-goals-main-container{
+    grid-row: 2;
+    grid-column: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: 700px;
-    max-width: auto;
+    width: 800px;
   }
 
   .my-goals-header{
@@ -322,15 +332,18 @@
   }
 
   .profile-pic2-content-holder{
+    grid-row: 2;
+    grid-column: 2;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 800px;
   }
 
   .profile-pic2-container{
     border-style:solid;
     border-radius: 300px;
-    background-image: url("./wolf\ about\ me\ placeholder.jpg");
+    background-image: url("../Resources/wolf\ about\ me\ placeholder.jpg");
     background-repeat: no-repeat;
     height: 400px;
     width: 400px;
@@ -338,15 +351,18 @@
   }
 
   .profile-pic3-content-holder{
+    grid-row: 3;
+    grid-column: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 800px;
   }
 
   .profile-pic3-container{
     border-style:solid;
     border-radius: 400px;
-    background-image: url("./chilling-rain-pic.jpg");
+    background-image: url("../Resources/chilling-rain-pic.jpg");
     background-repeat: no-repeat;
     height: 450px;
     width: 450px;
@@ -355,12 +371,13 @@
   }
 
   .my-vision-main-container{
+    grid-row: 3;
+    grid-column: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: auto;
-    max-width: auto;
+    width: 800px;
   }
 
   .my-vision-header{
