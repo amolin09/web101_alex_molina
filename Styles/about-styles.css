@@ -1,5 +1,489 @@
-@media (max-width: 1549px)
-{
+.main-container{
+  height: 100%;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+}
+
+.side-banner{
+  /* border: solid 1px red; */
+  height: 100%;
+  width: 25%;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Cedarville Cursive', cursive;
+  background-image: url("../Resources/repeating-trees-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.side-banner-title{
+  height: 100%;
+  border-style: dotted;
+  border-radius: 75px;
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  opacity: .6;
+}
+
+.header-line1{
+  /* margin: 10px; */
+  font-size: 30px;
+}
+
+.header-line2{
+  /* margin: 10px; */
+  font-size: 30px;
+}
+
+.header-line3{
+  /* margin: 10px; */
+  font-size: 30px;
+}
+
+.header-line4{
+  /* margin: 10px; */
+  font-size: 30px;
+}
+
+.header-line5{
+  /* margin: 10px; */
+  font-size: 30px;
+}
+
+.header-line6{
+  /* margin: 10px; */
+  font-size: 30px;
+}
+
+.content-container{
+  /* border: solid 1px blue; */
+  height: auto;
+  width: 75%;
+  display: grid;
+  grid-template-columns: fit-content(50%) fit-content(50%);
+  grid-template-rows: fit-content(33%) fit-content(33%) fit-content(34%);
+  background-image: url("../Resources/background-rain.jpg");
+}
+
+.profile-pic-content-holder{
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 875px;
+}
+
+.profile-pic-container{
+
+  border-style:solid;
+  border-radius: 250px;
+  background-image: url("../Resources/cosmic-moon-pic.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 450px;
+  background-size:cover;
+  
+}
+
+.my-philosophy-main-container{
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 875px;
+}
+
+.my-philosophy-header{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.my-philosophy-body{
+  font-size: 25px;
+  padding: 0px 60px;
+}
+
+.my-goals-main-container{
+  grid-row: 2;
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 875px;
+}
+
+.my-goals-header{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.my-goals-body{
+  font-size: 25px;
+  padding: 0px 60px;
+}
+
+.profile-pic2-content-holder{
+  grid-row: 2;
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 875px;
+}
+
+.profile-pic2-container{
+  border-style:solid;
+  border-radius: 300px;
+  background-image: url("../Resources/wolf\ about\ me\ placeholder.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  background-size:cover;
+}
+
+.profile-pic3-content-holder{
+  grid-row: 3;
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 875px;
+}
+
+.profile-pic3-container{
+  border-style:solid;
+  border-radius: 400px;
+  background-image: url("../Resources/chilling-rain-pic.jpg");
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 450px;
+  background-size:cover;
+  
+}
+
+.my-vision-main-container{
+  grid-row: 3;
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 875px;
+}
+
+.my-vision-header{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.my-vision-body{
+  font-size: 25px;
+  padding: 0px 60px;
+}
+
+@media (max-width: 2350px){
+
+  .profile-pic-content-holder{
+    width: 825px;
+  }
+
+  .my-philosophy-main-container{
+    width: 825px;
+  }
+
+  .my-goals-main-container{
+    width: 825px;
+  }
+
+  .profile-pic2-content-holder{
+    width: 825px;
+  }
+
+  .profile-pic3-content-holder{
+    width: 825px;
+  }
+
+  .my-vision-main-container{
+    width: 825px;
+  }
+
+}
+
+@media (max-width: 2150px){
+
+  .profile-pic-content-holder{
+    width: 775px;
+  }
+
+  .my-philosophy-main-container{
+    width: 775px;
+  }
+
+  .my-goals-main-container{
+    width: 775px;
+  }
+
+  .profile-pic2-content-holder{
+    width: 775px;
+  }
+
+  .profile-pic3-content-holder{
+    width: 775px;
+  }
+
+  .my-vision-main-container{
+    width: 775px;
+  }
+
+}
+
+@media (max-width: 2050px){
+
+  .profile-pic-content-holder{
+    width: 725px;
+  }
+
+  .my-philosophy-main-container{
+    width: 725px;
+    font-size: ;
+  }
+
+  .my-goals-main-container{
+    width: 725px;
+  }
+
+  .profile-pic2-content-holder{
+    width: 725px;
+  }
+
+  .profile-pic3-content-holder{
+    width: 725px;
+  }
+
+  .my-vision-main-container{
+    width: 725px;
+  }
+
+}
+
+@media (max-width: 1975px){
+
+  .profile-pic-content-holder{
+    width: 700px;
+  }
+
+  .profile-pic-container{
+    height: 350px;
+    width: 400px;
+  }
+
+  .my-philosophy-main-container{
+    width: 700px;
+  }
+
+  .my-philosophy-header{
+    font-size: 28px;
+  }
+  
+  .my-philosophy-body{
+    font-size: 22px;
+  }
+
+  .my-goals-main-container{
+    width: 700px;
+  }
+
+  .my-goals-header{
+    font-size: 28px;
+  }
+
+  .my-goals-body{
+    font-size: 22px;
+  }
+
+  .profile-pic2-content-holder{
+    width: 700px;
+  }
+
+  .profile-pic2-container{
+    height: 350px;
+    width: 400px;
+  }
+
+  .profile-pic3-content-holder{
+    width: 700px;
+  }
+
+  .profile-pic3-container{
+    height: 350px;
+    width: 400px;
+  }
+
+  .my-vision-main-container{
+    width: 700px;
+  }
+
+  .my-vision-header{
+    font-size: 28px;
+  }
+
+  .my-vision-body{
+    font-size: 22px;
+  }
+
+}
+
+@media (max-width: 1900px){
+
+  .profile-pic-content-holder{
+    width: 650px;
+  }
+
+  .profile-pic-container{
+    height: 350px;
+    width: 350px;
+  }
+
+  .my-philosophy-main-container{
+    width: 650px;
+  }
+
+  .my-philosophy-header{
+    font-size: 25px;
+  }
+  
+  .my-philosophy-body{
+    font-size: 20px;
+  }
+
+  .my-goals-main-container{
+    width: 650px;
+  }
+
+  .my-goals-header{
+    font-size: 25px;
+  }
+
+  .my-goals-body{
+    font-size: 20px;
+  }
+
+  .profile-pic2-content-holder{
+    width: 650px;
+  }
+
+  .profile-pic2-container{
+    height: 350px;
+    width: 350px;
+  }
+
+  .profile-pic3-content-holder{
+    width: 650px;
+  }
+
+  .profile-pic3-container{
+    height: 350px;
+    width: 350px;
+  }
+
+  .my-vision-main-container{
+    width: 650px;
+  }
+
+  .my-vision-header{
+    font-size: 25px;
+  }
+
+  .my-vision-body{
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 1800px){
+
+  .profile-pic-content-holder{
+    width: 550px;
+    margin-bottom: 50px;
+  }
+
+  .profile-pic-container{
+    height: 350px;
+    width: 350px;
+  }
+
+  .my-philosophy-main-container{
+    width: 550px;
+    margin-bottom: 50px;
+  }
+
+  .my-philosophy-header{
+    font-size: 25px;
+  }
+  
+  .my-philosophy-body{
+    font-size: 20px;
+  }
+
+  .my-goals-main-container{
+    width: 550px;
+    margin-bottom: 50px;
+  }
+
+  .my-goals-header{
+    font-size: 25px;
+  }
+
+  .my-goals-body{
+    font-size: 20px;
+  }
+
+  .profile-pic2-content-holder{
+    width: 550px;
+    margin-bottom: 50px;
+  }
+
+  .profile-pic2-container{
+    height: 350px;
+    width: 350px;
+  }
+
+  .profile-pic3-content-holder{
+    width: 550px;
+  }
+
+  .profile-pic3-container{
+    height: 350px;
+    width: 350px;
+  }
+
+  .my-vision-main-container{
+    width: 550px;
+  }
+
+  .my-vision-header{
+    font-size: 25px;
+  }
+
+  .my-vision-body{
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 1549px){
 
   .main-container{
     height: 100%;
@@ -16,6 +500,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +514,7 @@
     border-radius: 75px;
     padding: 0px 30px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
@@ -71,16 +557,18 @@
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 33% 33% 34%;
+  grid-template-columns: fit-content(50%) fit-content(50%);
+  grid-template-rows: fit-content(33%) fit-content(33%) fit-content(34%);
   background-image: url("../Resources/background-rain.jpg");
 }
 
 .profile-pic-content-holder{
   margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 650px;
 }
 
 .profile-pic-container{
@@ -100,9 +588,9 @@
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  min-width: auto;
-  max-width: auto;
-  max-height: auto;
+  margin-bottom: 50px;
+  width: 650px;
+ 
 }
 
 .my-philosophy-header{
@@ -120,9 +608,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: auto;
-  max-width: auto;
-  max-height: auto;
+  margin-bottom: 50px;
+  width: 650px;
 }
 
 .my-goals-header{
@@ -139,6 +626,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
+  width: 650px;
 }
 
 .profile-pic2-container{
@@ -155,6 +644,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 650px;
 }
 
 .profile-pic3-container{
@@ -173,9 +663,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: auto;
-  max-width: auto;
-  max-height: auto;
+  width: 650px;
 }
 
 .my-vision-header{
@@ -189,208 +677,50 @@
 }
 }
 
-
-
-
-
-
-@media (min-width: 1550px){
-  .main-container{
-    height: 100%;
-    width: 100%;
-    background-color: lightgrey;
-    display: flex;
-  }
-  
-  .side-banner{
-    /* border: solid 1px red; */
-    height: 100%;
-    width: 25%;
-    min-width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Cedarville Cursive', cursive;
-    background-image: url("../Resources/repeating-trees-background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  }
-  
+@media (max-width: 1300px){
   .side-banner-title{
-    height: 100%;
-    border-style: dotted;
-    border-radius: 75px;
-    padding: 0px 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: white;
-    opacity: .6;
+    width: 800px;
   }
-  
-  .header-line1{
-    /* margin: 10px; */
-    font-size: 30px;
-  }
-  
-  .header-line2{
-    /* margin: 10px; */
-    font-size: 30px;
-  }
-  
-  .header-line3{
-    /* margin: 10px; */
-    font-size: 30px;
-  }
-  
-  .header-line4{
-    /* margin: 10px; */
-    font-size: 30px;
-  }
-  
-  .header-line5{
-    /* margin: 10px; */
-    font-size: 30px;
-  }
-  
-  .header-line6{
-    /* margin: 10px; */
-    font-size: 30px;
-  }
-  
+
   .content-container{
     /* border: solid 1px blue; */
     height: auto;
-    width: 75%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 33% 33% 34%;
-    background-image: url("../Resources/background-rain.jpg");
-  }
+    width: 100%;
+  }  
 
   .profile-pic-content-holder{
     grid-row: 1;
-    grid-column: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-  }
-
-  .profile-pic-container{
-
-    border-style:solid;
-    border-radius: 250px;
-    background-image: url("../Resources/cosmic-moon-pic.jpg");
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 450px;
-    background-size:cover;
-    
+    grid-column: 1/span 3;
+    width: auto;
   }
 
   .my-philosophy-main-container{
-    grid-row: 1;
-    grid-column: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 800px;
-  }
-
-  .my-philosophy-header{
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .my-philosophy-body{
-    font-size: 25px;
-    padding: 0px 60px;
+    grid-row: 2;
+    grid-column: 1/span 3;
+    width: auto;
   }
 
   .my-goals-main-container{
-    grid-row: 2;
-    grid-column: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 800px;
-  }
-
-  .my-goals-header{
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .my-goals-body{
-    font-size: 25px;
-    padding: 0px 60px;
+    grid-row:4;
+    grid-column: 1/span 3;
+    width: auto;
   }
 
   .profile-pic2-content-holder{
-    grid-row: 2;
-    grid-column: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-  }
-
-  .profile-pic2-container{
-    border-style:solid;
-    border-radius: 300px;
-    background-image: url("../Resources/wolf\ about\ me\ placeholder.jpg");
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 400px;
-    background-size:cover;
+    grid-row:3;
+    grid-column: 1/span 3;
+    width: auto;
   }
 
   .profile-pic3-content-holder{
-    grid-row: 3;
-    grid-column: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-  }
-
-  .profile-pic3-container{
-    border-style:solid;
-    border-radius: 400px;
-    background-image: url("../Resources/chilling-rain-pic.jpg");
-    background-repeat: no-repeat;
-    height: 450px;
-    width: 450px;
-    background-size:cover;
-    
+    grid-row:5;
+    grid-column: 1/span3;
+    width: auto;
   }
 
   .my-vision-main-container{
-    grid-row: 3;
-    grid-column: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 800px;
+    grid-row:6;
+    grid-column: 1/span2;
+    width: auto;
   }
-
-  .my-vision-header{
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .my-vision-body{
-    font-size: 25px;
-    padding: 0px 60px;
-  }
-
 }
-
-
-
